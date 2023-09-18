@@ -10,7 +10,7 @@ public class HelloServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Third Commit From the Web hook";
+        message = "Third Commit From the Web Hoooook";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
