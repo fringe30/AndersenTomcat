@@ -9,7 +9,8 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<a href="new-servlet">New Servlet Test</a>
+<br>
+<a href="new-servlet">Env vars</a>
 
 </body>
 </html>

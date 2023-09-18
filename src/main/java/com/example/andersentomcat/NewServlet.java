@@ -19,8 +19,6 @@ public class NewServlet extends HttpServlet {
                 envVariables.append(line).append("<br>");
             }
             reader.close();
-
-            // Сохраните результат в переменной message
             message = "Environment Variables:<br>" + envVariables.toString();
         } catch (IOException e) {
             e.printStackTrace();
